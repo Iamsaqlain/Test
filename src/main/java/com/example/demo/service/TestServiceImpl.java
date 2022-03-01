@@ -170,5 +170,9 @@ public class TestServiceImpl implements TestService{
         cell.setCellStyle(style);
         return cell;
 	}
+	
+	public int getSum(int n1, int n2) {
+		return n1+n2;
+	}
 
 }
