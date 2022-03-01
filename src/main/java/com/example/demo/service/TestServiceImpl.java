@@ -171,8 +171,8 @@ public class TestServiceImpl implements TestService{
         return cell;
 	}
 	
-	public String checkValidNumber(String str) {
-		return "0";
+	public int getSum(int n1, int n2) {
+		return n1+n2;
 	}
 
 }
