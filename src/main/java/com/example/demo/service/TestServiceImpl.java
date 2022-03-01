@@ -170,5 +170,9 @@ public class TestServiceImpl implements TestService{
         cell.setCellStyle(style);
         return cell;
 	}
+	
+	public String checkValidNumber(String str) {
+		return "0";
+	}
 
 }
